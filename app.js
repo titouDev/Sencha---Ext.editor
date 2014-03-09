@@ -27,14 +27,13 @@ Ext.application({
     ],
     views: [
         'MyViewport',
-        'testPanel',
         'toto'
     ],
     autoCreateViewport: true,
     name: 'MyApp',
 
     launch: function() {
-        Ext.getStore('user').add({name:"titou"});
+        Ext.getStore('user').add({name:"click me"});
 
 
         var panel = Ext.getCmp('vbox');

@@ -16,7 +16,7 @@
 Ext.define('MyApp.view.toto', {
     extend: 'Ext.view.View',
 
-    height: 250,
+    height: 30,
     width: 400,
     itemSelector: 'div.tutu',
     store: 'user',
@@ -26,7 +26,6 @@ Ext.define('MyApp.view.toto', {
 
         Ext.applyIf(me, {
             itemTpl: [
-                'Data View Item {name}',
                 '<div class="tutu">{name}</div>'
             ]
         });

@@ -18,36 +18,6 @@
                 }
             ]
         },
-        "82a8acca-f782-43bf-957a-87410dde89c8": {
-            "id": "82a8acca-f782-43bf-957a-87410dde89c8",
-            "cn": [
-                {
-                    "id": "824749cd-1180-41bf-90bc-41460a7825c2"
-                },
-                {
-                    "id": "3867702f-afe5-4a5f-9bda-758f8e989745",
-                    "cn": [
-                        {
-                            "id": "798df0ef-e064-4001-acd5-1f8824a9f846"
-                        },
-                        {
-                            "id": "de5e7d21-a6af-4e8e-800b-684de9330fd1",
-                            "cn": [
-                                {
-                                    "id": "595fe479-85fd-4d25-a917-23e6ab51144a"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "183e0dce-e809-48eb-bed4-24b96b5f33e9"
-                        },
-                        {
-                            "id": "ed42538d-2591-401b-a0db-cdc683aea223"
-                        }
-                    ]
-                }
-            ]
-        },
         "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6": {
             "id": "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6",
             "cn": [
@@ -77,19 +47,18 @@
             "6293a357-1102-4f30-8cb4-95de915933e7",
             "0df13e30-5de0-44a8-83be-4ca5eee3c736",
             "application",
-            "82a8acca-f782-43bf-957a-87410dde89c8",
             "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
         ]
     },
     "canvasState": {
-        "topInstance": null
+        "topInstance": "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
     },
     "inspectorState": {
-        "topInstance": "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad",
-        "selectedInstance": "a81f8b8b-6875-4c35-965e-fd129b213ca2"
+        "topInstance": "application",
+        "selectedInstance": "5152bd30-b5cb-4aa5-b56f-b331ef64568d"
     },
     "codeState": {
-        "topInstance": "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad"
+        "topInstance": "application"
     },
     "editMode": "code"
 }

@@ -38,14 +38,6 @@
             ],
             "className": "Library"
         },
-        "82a8acca-f782-43bf-957a-87410dde89c8": {
-            "paths": [
-                "metadata/view/testPanel",
-                "app/view/override/testPanel.js",
-                "app/view/testPanel.js"
-            ],
-            "className": "testPanel"
-        },
         "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6": {
             "paths": [
                 "metadata/view/toto",
@@ -58,7 +50,6 @@
     "viewOrderMap": {
         "view": [
             "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad",
-            "82a8acca-f782-43bf-957a-87410dde89c8",
             "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
         ],
         "store": [

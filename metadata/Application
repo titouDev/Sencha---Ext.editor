@@ -14,7 +14,6 @@
         ],
         "views": [
             "MyViewport",
-            "testPanel",
             "toto"
         ],
         "autoCreateViewport": true,
@@ -32,7 +31,7 @@
             "userConfig": {
                 "fn": "launch",
                 "implHandler": [
-                    "Ext.getStore('user').add({name:\"titou\"});",
+                    "Ext.getStore('user').add({name:\"click me\"});",
                     "",
                     "",
                     "var panel = Ext.getCmp('vbox');",

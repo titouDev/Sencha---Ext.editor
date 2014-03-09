@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 250,
+        "height": 30,
         "width": 400,
         "designer|userClassName": "toto",
         "itemSelector": "div.tutu",
@@ -23,7 +23,6 @@
             "codeClass": null,
             "userConfig": {
                 "implHandler": [
-                    "Data View Item {name}",
                     "<div class=\"tutu\">{name}</div>"
                 ],
                 "designer|displayName": "itemTpl"
