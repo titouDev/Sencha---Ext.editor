@@ -1,0 +1,56 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "user"
+        ],
+        "stores": [
+            "user"
+        ],
+        "views": [
+            "MyViewport",
+            "testPanel",
+            "toto"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "Ext.getStore('user').add({name:\"titou\"});",
+                    "",
+                    "",
+                    "var panel = Ext.getCmp('vbox');",
+                    "var items = [];",
+                    "for (var i=0;i<500;i++) {",
+                    "    items.push(Ext.create('MyApp.view.toto'));",
+                    "",
+                    "}",
+                    "",
+                    "Ext.suspendLayouts(true);",
+                    "",
+                    "panel.add(items);",
+                    "Ext.resumeLayouts(true);",
+                    "",
+                    ""
+                ]
+            },
+            "designerId": "5152bd30-b5cb-4aa5-b56f-b331ef64568d"
+        }
+    ]
+}

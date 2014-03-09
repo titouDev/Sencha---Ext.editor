@@ -1,0 +1,34 @@
+{
+    "type": "Ext.view.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "toto",
+        "itemSelector": "div.tutu",
+        "store": "user"
+    },
+    "designerId": "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "Data View Item {name}",
+                    "<div class=\"tutu\">{name}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "ba067f05-d2af-494c-ba59-b1e06341678d"
+        }
+    ]
+}

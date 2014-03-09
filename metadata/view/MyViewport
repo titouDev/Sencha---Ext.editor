@@ -1,0 +1,72 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "fit"
+    },
+    "designerId": "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "id": "vbox",
+                "autoScroll": true,
+                "layout": "vbox",
+                "title": "My Panel"
+            },
+            "designerId": "bfe3a4e6-5cc0-4b24-b79e-a30405a6f43d",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onVboxAdd",
+                        "implHandler": [
+                            "var editor = new Ext.Editor({",
+                            "    updateEl: true, // update the innerHTML of the bound element when editing completes",
+                            "    field: {",
+                            "        xtype: 'combobox'",
+                            "    }",
+                            "});",
+                            "",
+                            "if (!this.t) {",
+                            "    ",
+                            "    ",
+                            "    this.t=Ext.Function.createBuffered(function(){",
+                            "        Ext.Function.defer(function(){Ext.each(Ext.query('div.tutu'), function(el){",
+                            "            console.log(el)",
+                            "            Ext.get(el).on('click',function(){",
+                            "                editor.startEdit(this)",
+                            "            });",
+                            "        })}, 1000);",
+                            "    }, 5)",
+                            "}",
+                            "",
+                            "this.t();",
+                            ""
+                        ],
+                        "name": "add",
+                        "scope": "me"
+                    },
+                    "designerId": "a81f8b8b-6875-4c35-965e-fd129b213ca2"
+                }
+            ]
+        }
+    ]
+}

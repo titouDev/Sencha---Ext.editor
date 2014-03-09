@@ -1,0 +1,78 @@
+{
+    "name": "testGrid",
+    "settings": {},
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "6293a357-1102-4f30-8cb4-95de915933e7": {
+            "paths": [
+                "metadata/store/user",
+                "app/store/override/user.js",
+                "app/store/user.js"
+            ],
+            "className": "user"
+        },
+        "0df13e30-5de0-44a8-83be-4ca5eee3c736": {
+            "paths": [
+                "metadata/model/user",
+                "app/model/override/user.js",
+                "app/model/user.js"
+            ],
+            "className": "user"
+        },
+        "8b2333fb-4784-4977-b457-fe4345bb852d": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "82a8acca-f782-43bf-957a-87410dde89c8": {
+            "paths": [
+                "metadata/view/testPanel",
+                "app/view/override/testPanel.js",
+                "app/view/testPanel.js"
+            ],
+            "className": "testPanel"
+        },
+        "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6": {
+            "paths": [
+                "metadata/view/toto",
+                "app/view/override/toto.js",
+                "app/view/toto.js"
+            ],
+            "className": "toto"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "d82a3b89-2bf4-4a89-a972-d3a1c7f1f0ad",
+            "82a8acca-f782-43bf-957a-87410dde89c8",
+            "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
+        ],
+        "store": [
+            "6293a357-1102-4f30-8cb4-95de915933e7"
+        ],
+        "controller": [],
+        "model": [
+            "0df13e30-5de0-44a8-83be-4ca5eee3c736"
+        ],
+        "resource": [
+            "8b2333fb-4784-4977-b457-fe4345bb852d"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
