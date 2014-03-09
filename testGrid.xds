@@ -45,6 +45,12 @@
                 "app/view/toto.js"
             ],
             "className": "toto"
+        },
+        "c067e2a1-1b01-4fda-98ba-38c6571f8cc3": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
         }
     },
     "viewOrderMap": {
@@ -60,7 +66,8 @@
             "0df13e30-5de0-44a8-83be-4ca5eee3c736"
         ],
         "resource": [
-            "8b2333fb-4784-4977-b457-fe4345bb852d"
+            "8b2333fb-4784-4977-b457-fe4345bb852d",
+            "c067e2a1-1b01-4fda-98ba-38c6571f8cc3"
         ],
         "app": [
             "application"

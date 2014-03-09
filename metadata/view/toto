@@ -23,7 +23,7 @@
             "codeClass": null,
             "userConfig": {
                 "implHandler": [
-                    "<div class=\"tutu\">{name}</div>"
+                    "<li class=\"tutu\">{name}</li>"
                 ],
                 "designer|displayName": "itemTpl"
             },

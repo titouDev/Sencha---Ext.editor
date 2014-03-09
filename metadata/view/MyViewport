@@ -49,7 +49,7 @@
                             "    ",
                             "    ",
                             "    this.t=Ext.Function.createBuffered(function(){",
-                            "        Ext.Function.defer(function(){Ext.each(Ext.query('div.tutu'), function(el){",
+                            "        Ext.Function.defer(function(){Ext.each(Ext.query('.tutu'), function(el){",
                             "            console.log(el)",
                             "            Ext.get(el).on('click',function(){",
                             "                editor.startEdit(this)",

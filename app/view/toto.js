@@ -26,7 +26,7 @@ Ext.define('MyApp.view.toto', {
 
         Ext.applyIf(me, {
             itemTpl: [
-                '<div class="tutu">{name}</div>'
+                '<li class="tutu">{name}</li>'
             ]
         });
 

@@ -39,6 +39,9 @@
         },
         "8b2333fb-4784-4977-b457-fe4345bb852d": {
             "id": "8b2333fb-4784-4977-b457-fe4345bb852d"
+        },
+        "c067e2a1-1b01-4fda-98ba-38c6571f8cc3": {
+            "id": "c067e2a1-1b01-4fda-98ba-38c6571f8cc3"
         }
     },
     "tabState": {
@@ -47,18 +50,19 @@
             "6293a357-1102-4f30-8cb4-95de915933e7",
             "0df13e30-5de0-44a8-83be-4ca5eee3c736",
             "application",
-            "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
+            "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6",
+            "c067e2a1-1b01-4fda-98ba-38c6571f8cc3"
         ]
     },
     "canvasState": {
-        "topInstance": "a0137779-09cd-45b8-9e6b-fb6c6ddb7eb6"
+        "topInstance": null
     },
     "inspectorState": {
-        "topInstance": "application",
-        "selectedInstance": "5152bd30-b5cb-4aa5-b56f-b331ef64568d"
+        "topInstance": "c067e2a1-1b01-4fda-98ba-38c6571f8cc3",
+        "selectedInstance": "c067e2a1-1b01-4fda-98ba-38c6571f8cc3"
     },
     "codeState": {
-        "topInstance": "application"
+        "topInstance": "c067e2a1-1b01-4fda-98ba-38c6571f8cc3"
     },
     "editMode": "code"
 }
